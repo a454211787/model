@@ -49,8 +49,8 @@
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
           <div class="page-header" style="text-align: center">
-            <h1>趣味资讯概览</h1>
-            <p>这些栏目是对趣味资讯栏目的简介</p>
+            <h1>问题原型</h1>
+            <p>如下是对某个问题的展示原型</p>
           </div>
         </div>
       </div>
@@ -63,9 +63,9 @@
           <div class="thumbnail tree">
             <!--<img src="../assets/img/410_240.png">-->
             <div class="caption">
-              <h3>恐怖体</h3>
-              <p>恐怖体裁的刺激微文，短视频，胆小及身体素质不好的用户勿点！</p>
-              <p><a href="xiaoa.html" class="btn btn-primary" role="button" target="_blank">了解详情</a></p>
+              <h3>Vue弹窗返回问题</h3>
+              <p>点击如下了解详情按钮</p>
+              <p><router-link :to="{path:'/clickMaskA'}" class="btn btn-primary" role="button" target="_blank">了解详情</router-link></p>
             </div>
           </div>
         </div>

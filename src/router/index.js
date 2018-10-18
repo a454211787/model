@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
+import clickMaskA from '@/components/clickMaskA'
+import clickMaskB from '@/components/clickMaskB'
 
 Vue.use(Router)
 
@@ -10,6 +12,16 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
-    }
+    },
+    {
+      path: '/clickMaskA',
+      name: 'clickMaskA',
+      component: clickMaskA
+    },
+    {
+      path: '/clickMaskB',
+      name: 'clickMaskB',
+      component: clickMaskB
+    }         
   ]
 })

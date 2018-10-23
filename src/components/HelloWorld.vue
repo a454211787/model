@@ -63,7 +63,7 @@
           <div class="thumbnail tree">
             <!--<img src="../assets/img/410_240.png">-->
             <div class="caption">
-              <h3>Vue弹窗返回问题</h3>
+              <h3>Vue-beforeRouteLeave</h3>
               <p>点击如下了解详情按钮</p>
               <p><router-link :to="{path:'/clickMaskA'}" class="btn btn-primary" role="button" target="_blank">了解详情</router-link></p>
             </div>

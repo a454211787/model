@@ -31,15 +31,15 @@
     <!--banner区-->
     <div class="jumbotron">
       <div class="container">
-        <h1>提神小a</h1>
+        <h1>原型列表</h1>
         <!--这里有问题，缩小回让上面四个字消失-->
-        <h2>简明有趣的短时资讯分享平台，3分钟迅速提神！</h2>
+        <h2>阐述问题所用原型索引</h2>
         <p class="masthead-button-links">
-          <a class="btn btn-lg btn-primary btn-shadow" href="xiaoa.html" target="_blank" role="button">提一下神</a>
+        <!--  <a class="btn btn-lg btn-primary btn-shadow" href="xiaoa.html" target="_blank" role="button">提一下神</a>  -->
         </p>
         <ul class="masthead-links list-unstyled">
           <li>
-            <a href="#" target="_blank" role="button">立即登陆提一下神</a>
+           <!-- <a href="#" target="_blank" role="button">立即登陆提一下神</a> -->
           </li>
         </ul>
       </div>

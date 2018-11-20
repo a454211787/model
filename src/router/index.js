@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import clickMaskA from '@/components/clickMaskA'
 import clickMaskB from '@/components/clickMaskB'
+import chart from '@/components/chart'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/clickMaskB',
       name: 'clickMaskB',
       component: clickMaskB
-    }         
+    },
+    {
+      path: '/chart',
+      name: 'chart',
+      component: chart
+    }        
   ]
 })
